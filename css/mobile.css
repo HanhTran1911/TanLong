@@ -1,0 +1,139 @@
+@media screen and (max-width: 480px) {
+    .contain{
+        margin:0 10px;
+    }
+    .display_none{
+        display:none
+    }
+    .fz-11{
+        font-size: 11px;
+    }
+    /* header */
+    .search{
+        width: 150px;
+        font-size: 13px;
+    }
+    input.search[type="text"] {
+        padding-left: 12px;
+    }
+    .img_logo{
+        width:50px;
+    }
+    .form-search {
+        height: 40px;
+    }
+    .btn-search {
+       
+        height: 40px;
+        width: 45px;
+    }
+    .icon_size{
+        font-size:17px;
+    }
+    .header{
+        height:110px;
+        position: relative;
+    }
+    .support{
+        top: 10px;
+        position: absolute;
+        right: 10px;
+    }
+    .form-search{
+        border-right: 0;
+        position: absolute;
+        right: 22%;
+        top: 60px;
+    }
+    .icon-support{
+        padding: 7px 11px;
+    }
+    .menu{
+        display:none;
+    }
+    /* slide */
+    .img_slide{
+        width:440px;
+        height:240px;
+    }
+    .jus_content_center{
+        justify-content: center; 
+    }
+    /* ship-pay */
+    .ship-pay{
+        display: flex;
+    flex-direction: column;
+    }
+    .fz-12{
+        font-size:12px
+    }
+    .fz-22{
+        font-size:22px
+    }
+    .border-ship{
+        margin: 10px 0;
+    }
+    /* sản phẩm bán chạy */
+    .product-sale{
+        height:240px;
+    }
+    /* thiết bị bán chạy */
+    .device{  
+    flex-direction: column;
+    }
+    .devices{
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 15px;
+    }
+    .device-right{
+        margin-top:25px;
+        padding-left: 0px;
+    }
+    .item-device{
+        width: 195px;
+    height: 300px;
+    position:relative;
+    }
+    .positon_mobile{
+        position:absolute;
+        bottom: 10px;
+    }
+
+    /* chuyên mục */
+    .category{
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        margin: 0;
+        margin-left: 10px;
+    }
+    .item-category {
+        height: 122px;
+        width: 123px;
+        margin-bottom: 70px;
+    }
+    .name_cate{
+        font-size:13px;
+    }
+    .quantity_product{
+        font-size:12px;
+    }
+    .content_top{
+        text-align: center; padding-top: 20px;
+    }
+ 
+    .item1 {
+    top: 10px;
+    left: 17px;
+    right: 17px;
+    
+    }
+    /* tri ân */
+    .logo1{
+        top:-50px;
+    }
+    .img_logo1{
+        width: 98px;
+        height: 93px;
+    }
+}
