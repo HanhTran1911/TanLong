@@ -52,7 +52,7 @@
                 <img src="./img/logo.png" alt="" class="img_logo">
             </div>
             <!-- search -->
-            <form action="#" class="flex-custom form-search">
+            <form action="#" class="flex-custom form-search display_none">
                 <input type="text" class="search font-fa" placeholder="Nhập tìm kiếm sản phẩm">
                 <div class="AllCategory font-fa display_none">Chọn danh mục <svg width="10" height="5"
                         viewBox="0 0 10 5" fill="none" class="fill-current text-qblacktext"
@@ -81,7 +81,7 @@
 
     <!-- menu -->
     <div class="menu ">
-        <div class="contain flex-custom ps-0 pe-0">
+        <div class="contain flex-custom ps-0 pe-0 menu_laptop">
             <!--dropdown  categoty -->
             <div class="dropdown ">
                 <button class=" categoty btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"
@@ -150,6 +150,211 @@
                 </a>
                 <a href="#" class="item-menu bd-left">LIÊN HỆ</a>
                 <a href="#" class="item-menu bd-left" style="padding-right: 0;">TUYỂN DỤNG</a>
+            </div>
+        </div>
+
+        <!-- menu mobile -->
+        <div class="contain " id="icon_menu">
+            <a href=""><i class="fa-solid fa-bars-staggered fa-xl"></i></a>
+        </div>
+        <div class="menu_reponse  " id="menu_reponse">
+            <div class="icon_close" id="icon_close">
+                <i class="bg_icon fa-solid fa-circle-xmark fa-xl"></i>
+            </div>
+            <!-- search -->
+            <form action="#" class="flex-custom form-search ">
+                <input type="text" class="search font-fa" placeholder="Nhập tìm kiếm sản phẩm">
+                <div class="AllCategory font-fa display_none">Chọn danh mục <svg width="10" height="5"
+                        viewBox="0 0 10 5" fill="none" class="fill-current text-qblacktext"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="9.18359" y="0.90918" width="5.78538" height="1.28564"
+                            transform="rotate(135 9.18359 0.90918)"></rect>
+                        <rect x="5.08984" y="5" width="5.78538" height="1.28564" transform="rotate(-135 5.08984 5)">
+                        </rect>
+                    </svg>
+                </div>
+                <button class="btn-search"><i class="icon_size fa-solid fa-magnifying-glass green-color"></i></button>
+            </form>
+            <div class="flex-custom">
+                <div class="title_category" id="title_category">
+                    <p class="mb-0">Danh mục</p>
+                </div>
+                <div class="title_menu" id="title_menu">
+                    <p class="mb-0">Menu</p>
+                </div>
+            </div>
+            <div class="content_category_reponse display_none" id="content_category_reponse">
+                <ul class="dropdown-menu show"
+                    style="font-size: 14px;  border-radius: 0px; border: none;position: relative; background:#a5e0f3;">
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Bao cao su
+                            <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a></li>
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Khẩu trang y
+                            tế</a>
+                    </li>
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Găng tay y
+                            tế</a>
+                    </li>
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Băng cá nhân,
+                            băng
+                            keo</a>
+                    </li>
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Que thử
+                            thai</a></li>
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa flex-custom " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Bông rái
+                            tai
+                            <svg class="fill-current " width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a></li>
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Chăm sóc răng
+                            miệng</a></li>
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Dung dịch sát
+                            trùng
+                            <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a></li>
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Dung dịch vệ
+                            sinh</a>
+                    </li>
+                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between;">Máy, dụng cụ y
+                            tết
+                            khác</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- content menu -->
+            <div class="content_menu_reponse" id="content_menu_reponse">
+                <div class="">
+                    <a class="dropdown-item font-fa " href="#"
+                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px; padding-bottom: 10px;">Trang
+                        chủ
+                    </a>
+                </div>
+                <div class="">
+                    <a class="dropdown-item font-fa " href="#"
+                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Giới
+                        thiệu
+                    </a>
+                </div>
+                <div class="">
+                    <a class="dropdown-item font-fa " href="#"
+                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Sản
+                        phẩm <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                transform="rotate(45 1.49805 0.818359)"></rect>
+                            <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                transform="rotate(135 5.58984 4.90918)"></rect>
+                        </svg>
+                    </a>
+                    <div class="" style="margin-left: 20px;">
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tiệm
+                            thuốc <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a>
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Khẩu
+                            trang <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a>
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Thiết
+                            bị <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="">
+                    <a class="dropdown-item font-fa " href="#"
+                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
+                        tức
+                    </a>
+                    <div class="" style="margin-left: 20px;">
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
+                            tức 1 <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a>
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
+                            tức 2 <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a>
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
+                            tức 3 <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="">
+                    <a class="dropdown-item font-fa " href="#"
+                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Liên
+                        hệ
+                    </a>
+                </div>
+                <div class="">
+                    <a class="dropdown-item font-fa " href="#"
+                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tuyển
+                        dụng </a>
+                </div>
             </div>
         </div>
     </div>
@@ -737,7 +942,7 @@
         <!-- 20 năm..... tri ân-->
         <div class="grateful">
             <div class="logo1">
-                <img src="./img/logo1.png" alt="" class="img_logo1" >
+                <img src="./img/logo1.png" alt="" class="img_logo1">
             </div>
             <div class="" style="text-align: center; margin-top: 95px;">
                 <p class="font-fa " style="color: #f8f8f8; font-size: 23px; font-weight: 600;">HƠN 20 NĂM TẬN TÂM PHỤC
@@ -755,32 +960,38 @@
                 <ul class="splide__list">
                     <div class="item_grateful splide__slide">
                         <div class="img_box1">
-                            <img src="./img/Rectangle35.png" alt="" style="width:100%; height: 289px;" width="430px">
+                            <img src="./img/Rectangle35.png" alt="" class="img-fluid"
+                                style="width:100%; height: 289px;">
                         </div>
                     </div>
                     <div class="item_grateful splide__slide">
                         <div class="img_box">
-                            <img src="./img/Rectangle36.png" alt="" style="width:100%; height: 289px;" width="430px">
+                            <img src="./img/Rectangle36.png" alt="" class="img-fluid"
+                                style="width:100%; height: 289px;">
                         </div>
                     </div>
                     <div class="item_grateful splide__slide">
                         <div class="img_box">
-                            <img src="./img/Rectangle37.png" alt="" style="width:100%; height: 289px;" width="430px">
+                            <img src="./img/Rectangle37.png" alt="" class="img-fluid"
+                                style="width:100%; height: 289px;">
                         </div>
                     </div>
                     <div class="item_grateful splide__slide">
                         <div class="img_box">
-                            <img src="./img/Rectangle37.png" alt="" style="width:100%; height: 289px;" width="430px">
+                            <img src="./img/Rectangle37.png" alt="" class="img-fluid"
+                                style="width:100%; height: 289px;">
                         </div>
                     </div>
                     <div class="item_grateful splide__slide">
                         <div class="img_box">
-                            <img src="./img/Rectangle37.png" alt="" style="width:100%; height: 289px;" width="430px">
+                            <img src="./img/Rectangle37.png" alt="" class="img-fluid"
+                                style="width:100%; height: 289px;">
                         </div>
                     </div>
                     <div class="item_grateful splide__slide">
                         <div class="img_box">
-                            <img src="./img/Rectangle37.png" alt="" style="width:100%; height: 289px;" width="430px">
+                            <img src="./img/Rectangle37.png" alt="" class="img-fluid"
+                                style="width:100%; height: 289px;">
                         </div>
                     </div>
 
@@ -792,8 +1003,8 @@
         <div class="category-1 contain flex-custom">
             <div class="category1-left">
                 <div class="">
-                    <p class="font-fa mb-0" style="font-size: 16px; color: #A3A3A3;">Tiệm thuốc</p>
-                    <p class="font-fa " style="font-size: 28px;font-weight: 600; margin-bottom:13px ;">Khẩu trang y tế
+                    <p class="font-fa mb-0 fz-16 fz-12" style=" color: #A3A3A3;">Tiệm thuốc</p>
+                    <p class="font-fa fz-28 fz-22" style="font-weight: 600; margin-bottom:13px ;">Khẩu trang y tế
                     </p>
 
                     <div class="" style="background:linear-gradient(to left, #f8f8f8 95%,#ffbb38 5%); height: 2px;">
@@ -803,8 +1014,8 @@
                 <!-- khẩu trang -->
                 <div class="faceMark grid-custom">
                     <div class="item-faceMark">
-                        <img src="./img/Rectangle29_15.png" alt="">
-                        <div class="" style="padding:0 15px;">
+                        <img src="./img/Rectangle29_15.png" alt="" class="img-fluid">
+                        <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Tiệm thuốc</p>
                             <p class="font-fa name-product mb-1">Khẩu Trang N95</p>
                             <p class="font-fa mb-1"> <i class="cl-yellow fa-solid fa-star fa-xs"></i> <i
@@ -817,8 +1028,8 @@
 
                     </div>
                     <div class="item-faceMark">
-                        <img src="./img/Rectangle29_14.png" alt="">
-                        <div class="" style="padding:0 15px;">
+                        <img src="./img/Rectangle29_14.png" alt="" class="img-fluid">
+                        <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Tiệm thuốc</p>
                             <p class="font-fa name-product mb-1">Khẩu Trang KF94</p>
                             <p class="font-fa mb-1"> <i class="cl-yellow fa-solid fa-star fa-xs"></i> <i
@@ -831,8 +1042,8 @@
 
                     </div>
                     <div class="item-faceMark">
-                        <img src="./img/Rectangle29_16.png" alt="">
-                        <div class="" style="padding:0 15px;">
+                        <img src="./img/Rectangle29_16.png" alt="" class="img-fluid">
+                        <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Tiệm thuốc</p>
                             <p class="font-fa name-product mb-1">Khẩu Trang HM95</p>
                             <p class="font-fa mb-1"> <i class="cl-yellow fa-solid fa-star fa-xs"></i> <i
@@ -855,8 +1066,8 @@
         <div class="category-2 contain flex-custom">
             <div class="category2-left">
                 <div class="">
-                    <p class="font-fa mb-0" style="font-size: 16px; color: #A3A3A3;">Dung dịch</p>
-                    <p class="font-fa " style="font-size: 28px;font-weight: 600; margin-bottom:13px ;">Dung dịch</p>
+                    <p class="font-fa mb-0 fz-16 fz-12" style=" color: #A3A3A3;">Dung dịch</p>
+                    <p class="font-fa fz-28 fz-22" style="font-weight: 600; margin-bottom:13px ;">Dung dịch</p>
 
                     <div class="" style="background:linear-gradient(to left, #f8f8f8 95%,#ffbb38 5%); height: 2px;">
                     </div>
@@ -865,7 +1076,7 @@
                 <!-- dung dịch -->
                 <div class="solution grid-custom">
                     <div class="item-solution">
-                        <img src="./img/Rectangle29_17.png" alt="">
+                        <img src="./img/Rectangle29_17.png" alt="" class="img-fluid" class="img-fluid">
                         <div class="" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Dung dịch</p>
                             <p class="font-fa name-product mb-1">Nước Rửa Tay </p>
@@ -879,7 +1090,7 @@
 
                     </div>
                     <div class="item-solution">
-                        <img src="./img/Rectangle29_18.png" alt="">
+                        <img src="./img/Rectangle29_18.png" alt="" class="img-fluid">
                         <div class="" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Dung dịch</p>
                             <p class="font-fa name-product mb-1">Cồn</p>
@@ -893,7 +1104,7 @@
 
                     </div>
                     <div class="item-solution">
-                        <img src="./img/img1.png" alt="">
+                        <img src="./img/img1.png" alt="" class="img-fluid">
                         <div class="" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Dung dịch</p>
                             <p class="font-fa name-product mb-1">Dung Dịch Sát Khuẩn</p>
@@ -916,22 +1127,22 @@
         <!-- đối tác -->
         <div class="partner flex-custom contain">
             <div class="item-parner">
-                <img src="./img/6.png" alt="">
+                <img src="./img/6.png" alt="" class="img-fluid">
             </div>
             <div class="item-parner">
-                <img src="./img/Rectangle43_1.png" alt="">
+                <img src="./img/Rectangle43_1.png" alt="" class="img-fluid">
             </div>
             <div class="item-parner">
-                <img src="./img/1.png" alt="">
+                <img src="./img/1.png" alt="" class="img-fluid">
             </div>
             <div class="item-parner">
-                <img src="./img/2.png" alt="">
+                <img src="./img/2.png" alt="" class="img-fluid">
             </div>
             <div class="item-parner">
-                <img src="./img/3.png" alt="">
+                <img src="./img/3.png" alt="" class="img-fluid">
             </div>
             <div class="item-parner">
-                <img src="./img/4.png" alt="">
+                <img src="./img/4.png" alt="" class="img-fluid">
             </div>
         </div>
 
@@ -945,9 +1156,9 @@
                 </div>
 
             </div>
-            <div class="new grid-custom  contain">
+            <div class="new grid-custom  contain  ">
                 <div class="item-new">
-                    <img src="./img/10.png" alt="" class="img-new" width="281px">
+                    <img src="./img/10.png" alt="" class="img-new img-fluid " width="281px">
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">TP.HCM: 1 – 2 tuần tới sẽ cung ứng đủ vaccine cho người dân</a>
                         <p class="font-fa day">Ngày 06/07/2023</p>
@@ -957,7 +1168,7 @@
                     </div>
                 </div>
                 <div class="item-new">
-                    <img src="./img/7.png" alt="" class="img-new" width="284px">
+                    <img src="./img/7.png" alt="" class="img-new img-fluid" width="284px">
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">Siêu lạ, siêu hot - Mặt nạ cho tâm trạng “nắng mưa” của
                             nàng</a>
@@ -967,8 +1178,8 @@
                                 class="style_icon fa-solid fa-angle-right fa-lg"></i></button>
                     </div>
                 </div>
-                <div class="item-new">
-                    <img src="./img/8.png" alt="" class="img-new" width="281px">
+                <div class="item-new display_none">
+                    <img src="./img/8.png" alt="" class="img-new img-fluid " width="281px">
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">Cận cảnh OPPO F11 Pro Avengers Edition: “Chất như nước cất”</a>
                         <p class="font-fa day">Ngày 06/07/2023</p>
@@ -977,8 +1188,8 @@
                                 class="style_icon fa-solid fa-angle-right fa-lg"></i></button>
                     </div>
                 </div>
-                <div class="item-new">
-                    <img src="./img/9.png" alt="" class="img-new" width="281px">
+                <div class="item-new display_none">
+                    <img src="./img/9.png" alt="" class="img-new img-fluid " width="281px">
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">Tìm hiểu những tính năng vô cùng hay ho của ColorOS 6.0 trên
                             Realme 3</a>
@@ -994,15 +1205,15 @@
         </div>
         <!-- đăng ký nhận tin -->
         <div class="register">
-            <div class=" contain flex-custom" style="justify-content: space-between;">
+            <div class="register_mobile contain flex-custom" style="justify-content: space-between;">
                 <div class="flex-custom">
                     <div class="flex-custom" style="align-items: center;">
                         <img src="./img/telegram-plane.png" alt=""
                             style="border: 1px solid #f8f8f8; border-radius:50% ; padding: 9px;">
                     </div>
                     <div class="" style="margin-left: 10px;">
-                        <p class="font-fa mb-0" style="font-size: 28px; color: #FFFFFF;">Đăng ký nhận tin</p>
-                        <p class="font-fa mb-0" style="font-size:16px ; color: #FFFFFF;">Đăng ký để được nhận nhiều ưu
+                        <p class="font-fa mb-0 fz-28 fz-22" style=" color: #FFFFFF;">Đăng ký nhận tin</p>
+                        <p class="font-fa mb-0 fz-16 fz-12" style="color: #FFFFFF;">Đăng ký để được nhận nhiều ưu
                             đãi</p>
                     </div>
                 </div>
@@ -1017,45 +1228,51 @@
 
     <!-- footer -->
     <footer>
-        <div class="contain flex-custom" style="position: relative;padding: 80px 0;">
+        <div class="contain flex-custom content_footer" >
             <div class="ft-left">
-                <div class="" style="background:#FFFFFF; padding: 15px;border-radius: 10px;">
-                    <img src="./img/logo1.png" alt="">
+                <div class="img_footer" style="background:#FFFFFF; padding: 15px;border-radius: 10px;">
+                    <img src="./img/logo1.png" alt="" class="img-fluid">
 
                 </div>
-                <p class="font-fa " style="color: #FFFFFF; font-size: 15px; margin-top: 50px; ">Hỗ trợ 24/7</p>
-                <p class="font-fa" style="color: #FFFFFF; font-size: 24px; font-weight: 600;">09 09 363 515</p>
-                <div class="">
-                    <img src="./img/facebook-square.png" alt="">
-                    <img src="./img/twitter.png" alt="">
-                    <img src="./img/pinterest.png" alt="">
-                    <img src="./img/linkedin-in.png" alt="">
-                    <img src="./img/vk.png" alt="">
+                <div class="left_20">
+                    <p class="font-fa " style="color: #FFFFFF; font-size: 15px; margin-top: 50px; ">Hỗ trợ 24/7</p>
+                    <p class="font-fa" style="color: #FFFFFF; font-size: 24px; font-weight: 600;">09 09 363 515</p>
+                    <div class="">
+                        <img src="./img/facebook-square.png" alt="">
+                        <img src="./img/twitter.png" alt="">
+                        <img src="./img/pinterest.png" alt="">
+                        <img src="./img/linkedin-in.png" alt="">
+                        <img src="./img/vk.png" alt="">
+                    </div>
                 </div>
+
             </div>
             <div class="ft-right grid-custom">
-                <!-- chính sách -->
-                <div class="flex-custom" style="flex-direction: column;">
-                    <p class="font-fa cl-white" style="font-size: 20px; font-weight: 700;">Chính sách</p>
-                    <div class="" style="width: 30px ; height: 2px; background:#FFFFFF;"></div>
-                    <a href="" class="font-fa cl-white item-policy">Vận chuyển</a>
-                    <a href="" class="font-fa cl-white item-policy">Thanh toán</a>
-                    <a href="" class="font-fa cl-white item-policy">Bảo mật</a>
-                    <a href="" class="font-fa cl-white item-policy">Bảo hành</a>
-                    <a href="" class="font-fa cl-white item-policy">Đổi trả hàng</a>
+                <div class="flex-custom r_ct" >
+                    <!-- chính sách -->
+                    <div class="flex-custom" style="flex-direction: column;">
+                        <p class="font-fa cl-white fz-20 fz-15" style="font-weight: 700;">Chính sách</p>
+                        <div class="" style="width: 30px ; height: 2px; background:#FFFFFF;"></div>
+                        <a href="" class="font-fa cl-white item-policy">Vận chuyển</a>
+                        <a href="" class="font-fa cl-white item-policy">Thanh toán</a>
+                        <a href="" class="font-fa cl-white item-policy">Bảo mật</a>
+                        <a href="" class="font-fa cl-white item-policy">Bảo hành</a>
+                        <a href="" class="font-fa cl-white item-policy">Đổi trả hàng</a>
+                    </div>
+                    <!-- dịch vụ -->
+                    <div class="flex-custom" style="flex-direction: column; margin-left: 60px;">
+                        <p class="font-fa cl-white fz-20 fz-15" style=" font-weight: 700;">Dịch vụ khách hàng</p>
+                        <div class="" style="width: 30px ; height: 2px; background:#FFFFFF;"></div>
+                        <a href="" class="font-fa cl-white item-service">Thông tin pháp lý</a>
+                        <a href="" class="font-fa cl-white item-service">Giảm giá</a>
+                        <a href="" class="font-fa cl-white item-service">Sản phẩm mới</a>
+                        <a href="" class="font-fa cl-white item-service">Sản phẩm bán chạy nhất</a>
+                    </div>
                 </div>
-                <!-- dịch vụ -->
-                <div class="flex-custom" style="flex-direction: column;">
-                    <p class="font-fa cl-white" style="font-size: 20px; font-weight: 700;">Dịch vụ khách hàng</p>
-                    <div class="" style="width: 30px ; height: 2px; background:#FFFFFF;"></div>
-                    <a href="" class="font-fa cl-white item-service">Thông tin pháp lý</a>
-                    <a href="" class="font-fa cl-white item-service">Giảm giá</a>
-                    <a href="" class="font-fa cl-white item-service">Sản phẩm mới</a>
-                    <a href="" class="font-fa cl-white item-service">Sản phẩm bán chạy nhất</a>
-                </div>
+
                 <!-- liên hệ -->
-                <div class="flex-custom" style="flex-direction: column; width: 385px;">
-                    <p class="font-fa cl-white" style="font-size: 20px; font-weight: 700;">Liên hệ ngay với chúng tôi
+                <div class="flex-custom contact_footer" style="flex-direction: column; width: 385px;">
+                    <p class="font-fa cl-white fz-20 fz-15" style=" font-weight: 700;">Liên hệ ngay với chúng tôi
                     </p>
                     <div class="" style="width: 30px ; height: 2px; background:#FFFFFF;"></div>
 
@@ -1088,6 +1305,7 @@
         </div>
     </footer>
 
+    <script src="./js/menu.js"></script>
     <script src="./js/app.js"></script>
     <script>
         var slideIndex = 1;
@@ -1160,18 +1378,36 @@
         });
     </script>
     <script>
-        var splide = new Splide('.splide2', {
-            type: 'loop',
-            perPage: 3,
-            perMove: 1,
-            focus: 'center',
-            margin: '10px',
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide2', {
+                type: 'loop',
+                perPage: 3,
+                perMove: 1,
+                margin: '10px',
+                pagination: false,
+            });
 
-            pagination: false,
+            splide.mount();
+
+            // Update perPage based on screen width
+            function updatePerPage() {
+                const screenWidth = window.innerWidth;
+                if (screenWidth <= 480) {
+                    splide.options.perPage = 1;
+
+                } else {
+                    splide.options.perPage = 3;
+                    focus: 'center';
+                }
+                splide.refresh();
+            }
+
+            // Call the function on page load and whenever the window is resized
+            window.addEventListener('load', updatePerPage);
+            window.addEventListener('resize', updatePerPage);
         });
-
-        splide.mount();
     </script>
+
 </body>
 
 </html>

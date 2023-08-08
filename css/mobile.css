@@ -1,4 +1,7 @@
 @media screen and (max-width: 480px) {
+    body{
+        overflow-z:hidden;
+    }
     .contain{
         margin:0 10px;
     }
@@ -7,6 +10,9 @@
     }
     .fz-11{
         font-size: 11px;
+    }
+    .fz-15{
+        font-size: 15px;
     }
     /* header */
     .search{
@@ -31,7 +37,7 @@
         font-size:17px;
     }
     .header{
-        height:110px;
+        height:56px;
         position: relative;
     }
     .support{
@@ -41,16 +47,46 @@
     }
     .form-search{
         border-right: 0;
-        position: absolute;
-        right: 22%;
-        top: 60px;
+        margin-bottom: 15px;
     }
     .icon-support{
         padding: 7px 11px;
     }
-    .menu{
-        display:none;
+    /* menu */
+    #icon_menu{
+        display:block;
     }
+    /* icon close */
+    .icon_close{
+        text-align:end;
+       padding:10px 0;
+    }
+    .bg_icon{
+        color: #f23e3e;
+    }
+    .title_category{
+        border-right:1px solid ;
+        padding:0 15px;
+    }
+    .title_menu{
+        padding: 0 15px;
+    }
+    .menu_reponse{
+        display:none;
+        background: #a5e0f3;
+        position: absolute;
+        z-index:1;
+        top: 0;
+        left: 0;
+        padding: 10px;
+       }
+
+    .content_menu_reponse{
+        margin-top:10px;
+    }
+        .menu_laptop{
+            display:none;
+        }
     /* slide */
     .img_slide{
         width:440px;
@@ -136,4 +172,121 @@
         width: 98px;
         height: 93px;
     }
+    /* tiệM thuốc */
+    .category-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-faceMark{
+        width: 195px;
+    height: 300px;
+    }
+    .category1-left{
+        margin-top:15px;
+    }
+    .faceMark{
+        grid-template-columns: auto auto ;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .category1-right{
+        display:none;
+        position: unset;
+    }
+    .item-faceMark{
+        position:relative;
+    }
+    /* category 2 */
+    .category2-right{
+        display:none;
+    }
+    .solution{
+        grid-template-columns: auto auto ;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    /* đối tác */
+    .partner{
+        display:grid;
+        grid-template-columns: auto auto auto   ;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    /* neww */
+    .new{
+        grid-template-columns: auto auto ;
+        column-gap: 10px;
+    }
+   .title{
+    font-size:10px;
+   }
+   .day {
+    font-size: 10px;
+   }
+   .btn_new {
+
+    font-size: 9px;
+}
+/* register_mobile */
+.register_mobile{
+    flex-direction: column;
+}
+.input-name {
+    width: 130px;
+    height: 35px;
+    font-size: 12px;
+}
+.input-email {
+  
+    width: 140px;
+    height: 35px;
+    font-size: 12px;
+}
+.btn-register {
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+}
+.from-register {
+    column-gap: 5px;
+    margin-top:20px;
+}
+/* footer */
+.img_footer{
+    display: flex;
+
+    padding: 15px;
+    border-radius: 10px;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+}
+.ft-left{
+    display:flex;
+    align-items: center;
+}
+.content_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom:30px;
+}
+.ft-right{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+}
+.item-policy, .item-service, .item-contact {
+font-size:12px;
+}
+.r_ct{
+    margin:0;
+    padding-top:40px;
+}
+.left_20{
+    margin-left:30px;
+}
+.contact_footer{
+    padding-top:20px;
+}
 }

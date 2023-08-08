@@ -48,7 +48,9 @@ body {
 .fz-28 {
     font-size: 28px;
 }
-
+.fz-20{
+    font-size: 20px;
+}
 
 .green-color {
     color: #4BB551;
@@ -172,6 +174,12 @@ input.search[type="text"] {
 }
 
 /* menu */
+.icon_menu{
+    display:none;
+}
+.menu_reponse{
+    display:none;
+}
 .menu {
     background: #149EE3;
 
@@ -577,6 +585,7 @@ border : 1px solid #CED4DA;
 border-radius: 5px;
 }
 /* tin tức */
+
 .news{
     background:#F6F6F6;
     padding-top:70px;
@@ -691,7 +700,7 @@ footer{
 }
 .ft-right{
     grid-template-columns: auto auto auto ;
-    column-gap: 110px;
+    
     position:absolute;
     right:0;
 }
@@ -701,4 +710,9 @@ footer{
     padding: 5px;
     margin-right:10px;
 }
-
+.r_ct{
+    margin: 0 100px;
+}
+.content_footer{
+    position: relative;padding: 80px 0;
+}
