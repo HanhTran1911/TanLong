@@ -174,7 +174,7 @@ input.search[type="text"] {
 }
 
 /* menu */
-.icon_menu{
+#icon_menu{
     display:none;
 }
 .menu_reponse{
@@ -354,6 +354,10 @@ input.search[type="text"] {
 .device{
     padding:40px 0;
 }
+.img_mobile{
+    width:272px;
+    height:272px
+}
 .device-left{
     border: 1px solid #077EC2 ;
     border-radius:5px;
@@ -406,7 +410,7 @@ position:absolute;
     background:#077EC2;
     border:none;
     border-radius:5px;
-    padding: 10px 90px;
+    padding: 10px 83px;
     color:white;
     font-weight:600;
     font-size:16px;
@@ -428,6 +432,12 @@ position:absolute;
     position:relative;
 
 }
+.mySlide{
+    display:none;
+}
+.cursor {
+    cursor: pointer;
+  }
 /* position bottom */
 .pab_bt{
     position:absolute;
@@ -526,6 +536,9 @@ position: relative;
 .img_box{
     padding: 0 10px;
 }
+.img_box1{
+    padding-left:10px;
+}
 .splide2{
     background: #209653;
     padding:50px 0;
@@ -622,6 +635,11 @@ border-radius: 5px;
 .style_icon{
     color: #209653;
     margin-left:10px;
+}
+.img-new {
+    width:281px;
+     height:169px;
+   
 }
 /* đăng ký nhận tin */
 .register{

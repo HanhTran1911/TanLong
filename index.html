@@ -8,6 +8,7 @@
     <title>Tân Long</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -155,7 +156,7 @@
 
         <!-- menu mobile -->
         <div class="contain " id="icon_menu">
-            <a href=""><i class="fa-solid fa-bars-staggered fa-xl"></i></a>
+            <i class="fa-solid fa-bars-staggered fa-xl"></i>
         </div>
         <div class="menu_reponse  " id="menu_reponse">
             <div class="icon_close" id="icon_close">
@@ -362,7 +363,7 @@
     <!--body content -->
     <div class="body-content  pe-0 ps-0">
         <!-- slide -->
-        <div class="flex-custom contain jus_content_center jus_content_end">
+        <div class="flex-custom contain jus_content_center jus_content_end mg_tablet">
             <div class="slider flex-custom">
                 <div class="pre" onclick="plusDivs(-1)"><img src="./img/pre.png" alt=""></div>
                 <div class="slide">
@@ -574,22 +575,29 @@
                     <div style="height: 2px;background:linear-gradient(to left, #f8f8f8 85%,#ffbb38 15%); "></div>
                 </div>
                 <div class="device-best-sale">
-                    <div class="img-feature">
-                        <img src="./img/Rectangle20_1.png" alt="">
+                    <div class="img-feature mySlide">
+                        <img src="./img/Rectangle20_1.png" alt="" class="img_tablet img_mobile">
+                    </div>
+                    <div class="img-feature mySlide">
+                        <img src="./img/Rectangle22_1_2.png" alt="" class="img_tablet img_mobile">
+                    </div>
+                    <div class="img-feature mySlide">
+                        <img src="./img/Rectangle22_1_3.png" alt=""class="img_tablet img_mobile">
                     </div>
                     <img src="./img/eys.png" alt="" class="see-product">
                     <img src="./img/cart.png" alt="" class="add-cart">
                 </div>
-                <div class="arrow-pre">
+                <div class="arrow-pre" onclick="plusSlides(-1)">
                     <img src="./img/arrow-right1.png" alt="">
                 </div>
-                <div class="arrow-next">
+                <div class="arrow-next" onclick="plusSlides(1)">
                     <img src="./img/arrow-right2.png" alt="">
                 </div>
                 <div class="flex-custom list-device-bestsale">
-                    <img src="./img/Rectangle22_1_1.png" alt="" class="img-hover">
-                    <img src="./img/Rectangle22_1_2.png" alt="" class="img-hover">
-                    <img src="./img/Rectangle22_1_3.png" alt="" class="img-hover">
+                    <img src="./img/Rectangle22_1_1.png" alt="" class="img-hover demo cursor "
+                        onclick="currentSlide(1)">
+                    <img src="./img/Rectangle22_1_2.png" alt="" class="img-hover demo cursor" onclick="currentSlide(2)">
+                    <img src="./img/Rectangle22_1_3.png" alt="" class="img-hover demo cursor" onclick="currentSlide(3)">
                 </div>
                 <div class="description">
                     <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
@@ -717,22 +725,28 @@
                     <div style="height: 2px;background:linear-gradient(to left, #f8f8f8 85%,#ffbb38 15%); "></div>
                 </div>
                 <div class="device-best-sale">
-                    <div class="img-feature">
-                        <img src="./img/Rectangle20.png" alt="">
+                    <div class="img-feature mySlide1">
+                        <img src="./img/Rectangle20.png" alt="" class="img_tablet img_mobile">
+                    </div>
+                    <div class="img-feature mySlide1">
+                        <img src="./img/Rectangle22_1.png" alt=""  class="img_tablet img_mobile">
+                    </div>
+                    <div class="img-feature mySlide1">
+                        <img src="./img/Rectangle22_2.png" alt=""  class="img_tablet img_mobile">
                     </div>
                     <img src="./img/eys.png" alt="" class="see-product">
                     <img src="./img/cart.png" alt="" class="add-cart">
                 </div>
                 <div class="arrow-pre">
-                    <img src="./img/arrow-right1.png" alt="">
+                    <img src="./img/arrow-right1.png" alt="" onclick="plusSlides1(-1)">
                 </div>
                 <div class="arrow-next">
-                    <img src="./img/arrow-right2.png" alt="">
+                    <img src="./img/arrow-right2.png" alt="" onclick="plusSlides1(1)">
                 </div>
                 <div class="flex-custom list-device-bestsale">
-                    <img src="./img/Rectangle22.png" alt="" class="img-hover">
-                    <img src="./img/Rectangle22_1.png" alt="" class="img-hover">
-                    <img src="./img/Rectangle22_2.png" alt="" class="img-hover">
+                    <img src="./img/Rectangle22.png" alt="" class="img-hover demo1 cursor"  onclick="currentSlide1(1)">
+                    <img src="./img/Rectangle22_1.png" alt="" class="img-hover demo1 cursor"  onclick="currentSlide1(2)">
+                    <img src="./img/Rectangle22_2.png" alt="" class="img-hover demo1 cursor"  onclick="currentSlide1(3)">
                 </div>
                 <div class="description">
                     <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
@@ -817,7 +831,7 @@
                         <img src="./img/Rectangle29_4.png" alt="" class="img-fluid">
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
-                            <p class="font-fa name-product mb-1">Giường Bệnh, Nệm Hơi Chống Loét</p>
+                            <p class="font-fa name-product mb-1">Giường Bệnh, Nệm Hơi</p>
                             <p class="font-fa mb-1"> <i class="cl-yellow fa-solid fa-star fa-xs"></i> <i
                                     class="cl-yellow fa-solid fa-star fa-xs"></i> <i
                                     class="cl-yellow fa-solid fa-star fa-xs"></i> <i
@@ -1158,7 +1172,7 @@
             </div>
             <div class="new grid-custom  contain  ">
                 <div class="item-new">
-                    <img src="./img/10.png" alt="" class="img-new img-fluid " width="281px">
+                    <img src="./img/10.png" alt="" class="img-new  " >
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">TP.HCM: 1 – 2 tuần tới sẽ cung ứng đủ vaccine cho người dân</a>
                         <p class="font-fa day">Ngày 06/07/2023</p>
@@ -1168,7 +1182,8 @@
                     </div>
                 </div>
                 <div class="item-new">
-                    <img src="./img/7.png" alt="" class="img-new img-fluid" width="284px">
+                    <img src="./img/7.png" alt=""  class="img-new  " 
+                  >
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">Siêu lạ, siêu hot - Mặt nạ cho tâm trạng “nắng mưa” của
                             nàng</a>
@@ -1178,8 +1193,8 @@
                                 class="style_icon fa-solid fa-angle-right fa-lg"></i></button>
                     </div>
                 </div>
-                <div class="item-new display_none">
-                    <img src="./img/8.png" alt="" class="img-new img-fluid " width="281px">
+                <div class="item-new ">
+                    <img src="./img/8.png" alt="" class="img-new  " >
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">Cận cảnh OPPO F11 Pro Avengers Edition: “Chất như nước cất”</a>
                         <p class="font-fa day">Ngày 06/07/2023</p>
@@ -1189,7 +1204,7 @@
                     </div>
                 </div>
                 <div class="item-new display_none">
-                    <img src="./img/9.png" alt="" class="img-new img-fluid " width="281px">
+                    <img src="./img/9.png" alt="" class="img-new  " >
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">Tìm hiểu những tính năng vô cùng hay ho của ColorOS 6.0 trên
                             Realme 3</a>
@@ -1228,7 +1243,7 @@
 
     <!-- footer -->
     <footer>
-        <div class="contain flex-custom content_footer" >
+        <div class="contain flex-custom content_footer">
             <div class="ft-left">
                 <div class="img_footer" style="background:#FFFFFF; padding: 15px;border-radius: 10px;">
                     <img src="./img/logo1.png" alt="" class="img-fluid">
@@ -1248,7 +1263,7 @@
 
             </div>
             <div class="ft-right grid-custom">
-                <div class="flex-custom r_ct" >
+                <div class="flex-custom r_ct">
                     <!-- chính sách -->
                     <div class="flex-custom" style="flex-direction: column;">
                         <p class="font-fa cl-white fz-20 fz-15" style="font-weight: 700;">Chính sách</p>
@@ -1306,9 +1321,41 @@
     </footer>
 
     <script src="./js/menu.js"></script>
+    <script src="./js/slide_thitbi.js"></script>
     <script src="./js/app.js"></script>
+    <!-- slide cho thiết bị -->
     <script>
-        var slideIndex = 1;
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlide");
+            let dots = document.getElementsByClassName("demo");
+            if (slides && slides.length > 0 && n > 0 && n <= slides.length) {
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[n - 1].style.display = "block";
+                dots[n - 1].className += " active";
+            }
+        }
+    </script>
+
+    <!-- slide đầu tiên-->
+    <script>
         showDivs(slideIndex);
 
         function plusDivs(n) {

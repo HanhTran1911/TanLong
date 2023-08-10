@@ -1,0 +1,247 @@
+@media screen and (min-width: 481px ) and ( max-width:980px) {
+    body{
+        overflow-z:hidden;
+    }
+    .contain{
+        margin:0 10px;
+    }
+    .display_none{
+        display:none
+    }
+    .fz-11{
+        font-size: 11px;
+    }
+    .fz-15{
+        font-size: 15px;
+    }
+    /* header */
+    .search{
+        width: 150px;
+        font-size: 13px;
+    }
+    input.search[type="text"] {
+        padding-left: 12px;
+    }
+    .img_logo{
+        width:50px;
+    }
+    .form-search {
+        height: 40px;
+    }
+    .btn-search {
+       
+        height: 40px;
+        width: 45px;
+    }
+    .icon_size{
+        font-size:17px;
+    }
+    .header{
+        height:56px;
+        position: relative;
+    }
+    .support{
+        top: 10px;
+        position: absolute;
+        right: 10px;
+    }
+    .form-search{
+        border-right: 0;
+        margin-bottom: 15px;
+    }
+    .icon-support{
+        padding: 7px 11px;
+    }
+    /* menu */
+    #icon_menu{
+        display:block;
+    }
+    /* icon close */
+    .icon_close{
+        text-align:end;
+       padding:10px 0;
+    }
+    .bg_icon{
+        color: #f23e3e;
+    }
+    .title_category{
+        border-right:1px solid ;
+        padding:0 15px;
+    }
+    .title_menu{
+        padding: 0 15px;
+    }
+    .menu_reponse{
+        display:none;
+        background: #a5e0f3;
+        position: absolute;
+        z-index:1;
+        top: 0;
+        left: 0;
+        padding: 10px;
+       }
+
+    .content_menu_reponse{
+        margin-top:10px;
+    }
+        .menu_laptop{
+            display:none;
+        }
+    /* slide */
+    .img_slide{
+        max-width:100%;
+        height:480px;
+        
+    }
+    .mg_tablet{
+        margin:0;
+    }
+    .jus_content_center{
+        justify-content: center; 
+    }
+    /* ship-pay */
+     .ship-pay{
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 15px;
+        margin-top:30px;
+        margin-bottom:30px;
+ }
+ /* sản phẩm bán chạy trong tháng 7 */
+    .product-sale{
+        height:240px;
+    }
+    /* sản phẩm thiết bị bán chạy */
+    .devices {
+        column-gap: 14px;
+        row-gap: 27px;
+       padding-top:33px;
+    }
+    .item-device{
+    width: 100%;
+    height: 244px;
+    position:relative;
+    }
+    .positon_mobile{
+        position:absolute;
+        bottom: 10px;
+    }
+    .btn-xct {
+    margin-top:0;
+    }
+    .img_tablet{
+        height: 222px;
+    width: 100%;
+    }
+    .device-best-sale {
+        padding-top: 10px;
+       
+    }
+    .name-product {
+        font-size: 13px;
+    }
+
+    /* chuyên mục */
+    .category{
+        grid-template-columns: auto auto auto;
+        column-gap: 12px;
+        padding-top: 40px;
+        justify-content: center;
+        margin: 0;
+        margin-left: 10px;
+    }
+    .item-category {
+        height: 185px;
+        width: 185px;
+        margin-bottom: 70px;
+    }
+    .content_top{
+        text-align: center; padding-top: 20px;
+    }
+   
+      /* tiệM thuốc */
+      .category-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-faceMark ,.item-solution {
+        width: 133px;
+        height: 289px;
+    }
+    .category1-left{
+        margin-top:15px;
+    }
+    .faceMark,.solution {
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+        max-width: 411px;
+    }
+.category-2 {
+    margin-top:40px;
+}
+
+/* đối tác */
+.partner {
+    justify-content: space-between;
+    padding: 70px 0;
+}
+.item-parner {
+    margin: 0 3px;
+}
+/* tin tức */
+.new {
+    grid-template-columns: auto auto auto;
+    column-gap: 12px;
+}
+.img-new {
+    width: 242px;
+     height:169px;
+   
+}
+/* đăng ký */
+.register_mobile
+{
+    flex-direction: column;
+}
+.from-register{
+    margin-top:30px;
+}
+/* footer */
+.img_footer{
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+}
+.ft-left{
+    display:flex;
+    align-items: center;
+}
+.content_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom:30px;
+}
+.ft-right{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+}
+.item-policy, .item-service, .item-contact {
+font-size:12px;
+}
+.r_ct{
+    margin:0;
+    padding-top:40px;
+}
+.left_20{
+    margin-left:30px;
+}
+.contact_footer{
+    padding-top: 40px;
+}
+}
