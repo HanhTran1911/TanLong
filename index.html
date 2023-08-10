@@ -973,7 +973,7 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <div class="item_grateful splide__slide">
-                        <div class="img_box1">
+                        <div class="img_box">
                             <img src="./img/Rectangle35.png" alt="" class="img-fluid"
                                 style="width:100%; height: 289px;">
                         </div>
@@ -1331,12 +1331,9 @@
         function plusSlides(n) {
             showSlides(slideIndex += n);
         }
-
         function currentSlide(n) {
             showSlides(slideIndex = n);
         }
-
-
         function showSlides(n) {
             let i;
             let slides = document.getElementsByClassName("mySlide");
@@ -1345,7 +1342,7 @@
                 for (i = 0; i < slides.length; i++) {
                     slides[i].style.display = "none";
                 }
-                for (i = 0; i < dots.length; i++) {
+                for (i = 0; i <  dots.length; i++) {
                     dots[i].className = dots[i].className.replace(" active", "");
                 }
                 slides[n - 1].style.display = "block";
