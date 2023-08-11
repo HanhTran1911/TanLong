@@ -22,7 +22,8 @@
             for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
             }
-            slides[n - 1].style.display = "block";
+            slides[n - 1].style.display = "flex";
+            slides[n - 1].style.justifyContent = "center";
             dots[n - 1].className += " active";
         }
     }
