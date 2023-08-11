@@ -120,7 +120,7 @@ body {
 
     background-color: transparent;
     border: #f8f8f8;
-    width: 310px;
+    width: 420px;
     margin-right: 20px;
 
 }
@@ -151,7 +151,7 @@ input.search[type="text"] {
     text-align: end;
     color: #FFFFFF;
     font-size: 14px;
-    padding: 0 25px;
+    padding: 0 50px;
     border-left: 1px solid;
 
 }
@@ -433,6 +433,11 @@ position:absolute;
     padding:10px 3px;
     position:relative;
 
+}
+.img-device{
+    height:180px;
+    display:flex;
+    align-item : center;
 }
 .mySlide{
     display:none;

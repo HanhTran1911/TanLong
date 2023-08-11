@@ -27,6 +27,7 @@
     <div class="header">
         <!-- top header -->
         <div class="display_none top_header flex-custom contain ps-0 pe-0 ">
+
             <div class="topHeaer-left flex-custom">
                 <p class=" mg-bt-0 address font-fa"> <i class="fa-solid fa-location-dot yellow-icon "></i> Địa chỉ: 138
                     đường
@@ -50,6 +51,217 @@
         </div>
         <hr class="mg-bt-0 mg-t-0 mt-0" style="color:white; ">
         <div class="bot-header flex-custom contain ps-0 pe-0">
+            <!-- menu mobile -->
+            <div class="contain " id="icon_menu">
+                <i class="fa-solid fa-bars-staggered fa-xl"></i>
+            </div>
+            <div class="menu_reponse  " id="menu_reponse">
+                <div class="icon_close" id="icon_close">
+                    <i class="bg_icon fa-solid fa-circle-xmark fa-xl"></i>
+                </div>
+                <!-- search -->
+                <form action="#" class="flex-custom form-search ">
+                    <input type="text" class="search font-fa" placeholder="Nhập tìm kiếm sản phẩm">
+                    <div class="AllCategory font-fa display_none">Chọn danh mục <svg width="10" height="5"
+                            viewBox="0 0 10 5" fill="none" class="fill-current text-qblacktext"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="9.18359" y="0.90918" width="5.78538" height="1.28564"
+                                transform="rotate(135 9.18359 0.90918)"></rect>
+                            <rect x="5.08984" y="5" width="5.78538" height="1.28564" transform="rotate(-135 5.08984 5)">
+                            </rect>
+                        </svg>
+                    </div>
+                    <button class="btn-search"><i
+                            class="icon_size fa-solid fa-magnifying-glass green-color"></i></button>
+                </form>
+                <div class="flex-custom">
+                    <div class="title_category" id="title_category">
+                        <p class="mb-0">Danh mục</p>
+                    </div>
+                    <div class="title_menu" id="title_menu">
+                        <p class="mb-0">Menu</p>
+                    </div>
+                </div>
+                <div class="content_category_reponse display_none" id="content_category_reponse">
+                    <ul class="dropdown-menu show"
+                        style="font-size: 14px;  border-radius: 0px; border: none;position: relative; background:#a5e0f3;">
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa " href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Bao cao su
+                                <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                        transform="rotate(45 1.49805 0.818359)"></rect>
+                                    <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                        transform="rotate(135 5.58984 4.90918)"></rect>
+                                </svg>
+                            </a></li>
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa " href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Khẩu trang
+                                y
+                                tế</a>
+                        </li>
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Găng tay y
+                                tế</a>
+                        </li>
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Băng cá
+                                nhân,
+                                băng
+                                keo</a>
+                        </li>
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Que thử
+                                thai</a></li>
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa flex-custom " href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Bông rái
+                                tai
+                                <svg class="fill-current " width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                        transform="rotate(45 1.49805 0.818359)"></rect>
+                                    <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                        transform="rotate(135 5.58984 4.90918)"></rect>
+                                </svg>
+                            </a></li>
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Chăm sóc
+                                răng
+                                miệng</a></li>
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Dung dịch
+                                sát
+                                trùng
+                                <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                        transform="rotate(45 1.49805 0.818359)"></rect>
+                                    <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                        transform="rotate(135 5.58984 4.90918)"></rect>
+                                </svg>
+                            </a></li>
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Dung dịch
+                                vệ
+                                sinh</a>
+                        </li>
+                        <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between;">Máy, dụng
+                                cụ y
+                                tết
+                                khác</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- content menu -->
+                <div class="content_menu_reponse" id="content_menu_reponse">
+                    <div class="">
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px; padding-bottom: 10px;">Trang
+                            chủ
+                        </a>
+                    </div>
+                    <div class="">
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Giới
+                            thiệu
+                        </a>
+                    </div>
+                    <div class="">
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Sản
+                            phẩm <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                    transform="rotate(45 1.49805 0.818359)"></rect>
+                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                    transform="rotate(135 5.58984 4.90918)"></rect>
+                            </svg>
+                        </a>
+                        <div class="" style="margin-left: 20px;">
+                            <a class="dropdown-item font-fa " href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tiệm
+                                thuốc <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                        transform="rotate(45 1.49805 0.818359)"></rect>
+                                    <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                        transform="rotate(135 5.58984 4.90918)"></rect>
+                                </svg>
+                            </a>
+                            <a class="dropdown-item font-fa " href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Khẩu
+                                trang <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                        transform="rotate(45 1.49805 0.818359)"></rect>
+                                    <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                        transform="rotate(135 5.58984 4.90918)"></rect>
+                                </svg>
+                            </a>
+                            <a class="dropdown-item font-fa " href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Thiết
+                                bị <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                        transform="rotate(45 1.49805 0.818359)"></rect>
+                                    <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                        transform="rotate(135 5.58984 4.90918)"></rect>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
+                            tức
+                        </a>
+                        <div class="" style="margin-left: 20px;">
+                            <a class="dropdown-item font-fa " href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
+                                tức 1 <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                        transform="rotate(45 1.49805 0.818359)"></rect>
+                                    <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                        transform="rotate(135 5.58984 4.90918)"></rect>
+                                </svg>
+                            </a>
+                            <a class="dropdown-item font-fa " href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
+                                tức 2 <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                        transform="rotate(45 1.49805 0.818359)"></rect>
+                                    <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                        transform="rotate(135 5.58984 4.90918)"></rect>
+                                </svg>
+                            </a>
+                            <a class="dropdown-item font-fa " href="#"
+                                style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
+                                tức 3 <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
+                                        transform="rotate(45 1.49805 0.818359)"></rect>
+                                    <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
+                                        transform="rotate(135 5.58984 4.90918)"></rect>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Liên
+                            hệ
+                        </a>
+                    </div>
+                    <div class="">
+                        <a class="dropdown-item font-fa " href="#"
+                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tuyển
+                            dụng </a>
+                    </div>
+                </div>
+            </div>
             <div class="logo">
                 <img src="./img/logo.png" alt="" class="img_logo">
             </div>
@@ -155,210 +367,7 @@
             </div>
         </div>
 
-        <!-- menu mobile -->
-        <div class="contain " id="icon_menu">
-            <i class="fa-solid fa-bars-staggered fa-xl"></i>
-        </div>
-        <div class="menu_reponse  " id="menu_reponse">
-            <div class="icon_close" id="icon_close">
-                <i class="bg_icon fa-solid fa-circle-xmark fa-xl"></i>
-            </div>
-            <!-- search -->
-            <form action="#" class="flex-custom form-search ">
-                <input type="text" class="search font-fa" placeholder="Nhập tìm kiếm sản phẩm">
-                <div class="AllCategory font-fa display_none">Chọn danh mục <svg width="10" height="5"
-                        viewBox="0 0 10 5" fill="none" class="fill-current text-qblacktext"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <rect x="9.18359" y="0.90918" width="5.78538" height="1.28564"
-                            transform="rotate(135 9.18359 0.90918)"></rect>
-                        <rect x="5.08984" y="5" width="5.78538" height="1.28564" transform="rotate(-135 5.08984 5)">
-                        </rect>
-                    </svg>
-                </div>
-                <button class="btn-search"><i class="icon_size fa-solid fa-magnifying-glass green-color"></i></button>
-            </form>
-            <div class="flex-custom">
-                <div class="title_category" id="title_category">
-                    <p class="mb-0">Danh mục</p>
-                </div>
-                <div class="title_menu" id="title_menu">
-                    <p class="mb-0">Menu</p>
-                </div>
-            </div>
-            <div class="content_category_reponse display_none" id="content_category_reponse">
-                <ul class="dropdown-menu show"
-                    style="font-size: 14px;  border-radius: 0px; border: none;position: relative; background:#a5e0f3;">
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa " href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Bao cao su
-                            <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                    transform="rotate(45 1.49805 0.818359)"></rect>
-                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                    transform="rotate(135 5.58984 4.90918)"></rect>
-                            </svg>
-                        </a></li>
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa " href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Khẩu trang y
-                            tế</a>
-                    </li>
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Găng tay y
-                            tế</a>
-                    </li>
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Băng cá nhân,
-                            băng
-                            keo</a>
-                    </li>
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Que thử
-                            thai</a></li>
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa flex-custom " href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Bông rái
-                            tai
-                            <svg class="fill-current " width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                    transform="rotate(45 1.49805 0.818359)"></rect>
-                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                    transform="rotate(135 5.58984 4.90918)"></rect>
-                            </svg>
-                        </a></li>
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Chăm sóc răng
-                            miệng</a></li>
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Dung dịch sát
-                            trùng
-                            <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                    transform="rotate(45 1.49805 0.818359)"></rect>
-                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                    transform="rotate(135 5.58984 4.90918)"></rect>
-                            </svg>
-                        </a></li>
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Dung dịch vệ
-                            sinh</a>
-                    </li>
-                    <li class="item_content_reponse"><a class="dropdown-item font-fa" href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between;">Máy, dụng cụ y
-                            tết
-                            khác</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- content menu -->
-            <div class="content_menu_reponse" id="content_menu_reponse">
-                <div class="">
-                    <a class="dropdown-item font-fa " href="#"
-                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px; padding-bottom: 10px;">Trang
-                        chủ
-                    </a>
-                </div>
-                <div class="">
-                    <a class="dropdown-item font-fa " href="#"
-                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Giới
-                        thiệu
-                    </a>
-                </div>
-                <div class="">
-                    <a class="dropdown-item font-fa " href="#"
-                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Sản
-                        phẩm <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                transform="rotate(45 1.49805 0.818359)"></rect>
-                            <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                transform="rotate(135 5.58984 4.90918)"></rect>
-                        </svg>
-                    </a>
-                    <div class="" style="margin-left: 20px;">
-                        <a class="dropdown-item font-fa " href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tiệm
-                            thuốc <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                    transform="rotate(45 1.49805 0.818359)"></rect>
-                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                    transform="rotate(135 5.58984 4.90918)"></rect>
-                            </svg>
-                        </a>
-                        <a class="dropdown-item font-fa " href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Khẩu
-                            trang <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                    transform="rotate(45 1.49805 0.818359)"></rect>
-                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                    transform="rotate(135 5.58984 4.90918)"></rect>
-                            </svg>
-                        </a>
-                        <a class="dropdown-item font-fa " href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Thiết
-                            bị <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                    transform="rotate(45 1.49805 0.818359)"></rect>
-                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                    transform="rotate(135 5.58984 4.90918)"></rect>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="">
-                    <a class="dropdown-item font-fa " href="#"
-                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
-                        tức
-                    </a>
-                    <div class="" style="margin-left: 20px;">
-                        <a class="dropdown-item font-fa " href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
-                            tức 1 <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                    transform="rotate(45 1.49805 0.818359)"></rect>
-                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                    transform="rotate(135 5.58984 4.90918)"></rect>
-                            </svg>
-                        </a>
-                        <a class="dropdown-item font-fa " href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
-                            tức 2 <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                    transform="rotate(45 1.49805 0.818359)"></rect>
-                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                    transform="rotate(135 5.58984 4.90918)"></rect>
-                            </svg>
-                        </a>
-                        <a class="dropdown-item font-fa " href="#"
-                            style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tin
-                            tức 3 <svg class="fill-current" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.49805" y="0.818359" width="5.78538" height="1.28564"
-                                    transform="rotate(45 1.49805 0.818359)"></rect>
-                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                    transform="rotate(135 5.58984 4.90918)"></rect>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="">
-                    <a class="dropdown-item font-fa " href="#"
-                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Liên
-                        hệ
-                    </a>
-                </div>
-                <div class="">
-                    <a class="dropdown-item font-fa " href="#"
-                        style="display: flex;  align-items: center; justify-content: space-between; padding-bottom: 10px;">Tuyển
-                        dụng </a>
-                </div>
-            </div>
-        </div>
+
     </div>
 
     <!--body content -->
@@ -583,7 +592,7 @@
                         <img src="./img/Rectangle22_1_2.png" alt="" class="img_tablet img_mobile">
                     </div>
                     <div class="img-feature mySlide">
-                        <img src="./img/Rectangle22_1_3.png" alt=""class="img_tablet img_mobile">
+                        <img src="./img/Rectangle22_1_3.png" alt="" class="img_tablet img_mobile">
                     </div>
                     <img src="./img/eys.png" alt="" class="see-product">
                     <img src="./img/cart.png" alt="" class="add-cart">
@@ -625,7 +634,10 @@
                 </div>
                 <div class="grid-custom devices">
                     <div class="item-device">
-                        <img src="./img/Rectangle29_1_2.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_1_2.png" alt="" class="img-fluid">
+                        </div>
+
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Cân sức khoẻ</p>
@@ -639,7 +651,9 @@
 
                     </div>
                     <div class="item-device">
-                        <img src="./img/Rectangle29_7.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_7.png" alt="" class="img-fluid">
+                        </div>
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Nạng</p>
@@ -653,7 +667,9 @@
 
                     </div>
                     <div class="item-device">
-                        <img src="./img/Rectangle29_8.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_8.png" alt="" class="img-fluid">
+                        </div>
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Cân sức khoẻ</p>
@@ -667,7 +683,9 @@
 
                     </div>
                     <div class="item-device">
-                        <img src="./img/Rectangle29_10.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_10.png" alt="" class="img-fluid">
+                        </div>
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Máy Massage</p>
@@ -681,7 +699,9 @@
 
                     </div>
                     <div class="item-device">
-                        <img src="./img/Rectangle29_12.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_12.png" alt="" class="img-fluid">
+                        </div>
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Xe lăn</p>
@@ -695,8 +715,10 @@
 
                     </div>
                     <div class="item-device">
-                        <img src="./img/Rectangle29_13.png" alt="" class="img-fluid">
-                        <div class="pab_bt positon_mobile" style="padding:0 15px;">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_13.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="pab_bt " style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Ghế vệ sinh</p>
                             <p class="font-fa mb-1"> <i class="cl-yellow fa-solid fa-star fa-xs"></i> <i
@@ -730,10 +752,10 @@
                         <img src="./img/Rectangle20.png" alt="" class="img_tablet img_mobile">
                     </div>
                     <div class="img-feature mySlide1">
-                        <img src="./img/Rectangle22_1.png" alt=""  class="img_tablet img_mobile">
+                        <img src="./img/Rectangle22_1.png" alt="" class="img_tablet img_mobile">
                     </div>
                     <div class="img-feature mySlide1">
-                        <img src="./img/Rectangle22_2.png" alt=""  class="img_tablet img_mobile">
+                        <img src="./img/Rectangle22_2.png" alt="" class="img_tablet img_mobile">
                     </div>
                     <img src="./img/eys.png" alt="" class="see-product">
                     <img src="./img/cart.png" alt="" class="add-cart">
@@ -745,9 +767,9 @@
                     <img src="./img/arrow-right2.png" alt="" onclick="plusSlides1(1)">
                 </div>
                 <div class="flex-custom list-device-bestsale">
-                    <img src="./img/Rectangle22.png" alt="" class="img-hover demo1 cursor"  onclick="currentSlide1(1)">
-                    <img src="./img/Rectangle22_1.png" alt="" class="img-hover demo1 cursor"  onclick="currentSlide1(2)">
-                    <img src="./img/Rectangle22_2.png" alt="" class="img-hover demo1 cursor"  onclick="currentSlide1(3)">
+                    <img src="./img/Rectangle22.png" alt="" class="img-hover demo1 cursor" onclick="currentSlide1(1)">
+                    <img src="./img/Rectangle22_1.png" alt="" class="img-hover demo1 cursor" onclick="currentSlide1(2)">
+                    <img src="./img/Rectangle22_2.png" alt="" class="img-hover demo1 cursor" onclick="currentSlide1(3)">
                 </div>
                 <div class="description">
                     <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
@@ -773,7 +795,9 @@
                 </div>
                 <div class="grid-custom devices">
                     <div class="item-device">
-                        <img src="./img/Rectangle29.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29.png" alt="" class="img-fluid">
+                        </div>
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Máy Đo Đường Huyết 3IN1</p>
@@ -787,7 +811,9 @@
 
                     </div>
                     <div class="item-device">
-                        <img src="./img/Rectangle29_1.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_1.png" alt="" class="img-fluid">
+                        </div>
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Máy Hút Đàm</p>
@@ -801,7 +827,9 @@
 
                     </div>
                     <div class="item-device">
-                        <img src="./img/Rectangle29_2.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_2.png" alt="" class="img-fluid">
+                        </div>
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Máy Hút Sữa</p>
@@ -815,7 +843,9 @@
 
                     </div>
                     <div class="item-device ">
-                        <img src="./img/Rectangle29_3.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_3.png" alt="" class="img-fluid">
+                        </div>
                         <div class="pab_bt" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Máy Tạo Oxy</p>
@@ -829,7 +859,9 @@
 
                     </div>
                     <div class="item-device">
-                        <img src="./img/Rectangle29_4.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_4.png" alt="" class="img-fluid">
+                        </div>
                         <div class="positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Giường Bệnh, Nệm Hơi</p>
@@ -843,7 +875,9 @@
 
                     </div>
                     <div class="item-device">
-                        <img src="./img/Rectangle29_5.png" alt="" class="img-fluid">
+                        <div class="img-device">
+                            <img src="./img/Rectangle29_5.png" alt="" class="img-fluid">
+                        </div>
                         <div class="pab_bt positon_mobile" style="padding:0 15px;">
                             <p class="font-fa mb-1 mt-2" style="color: #A3A3A3; font-size: 14px;">Thiết bị</p>
                             <p class="font-fa name-product mb-1">Vớ Tĩnh Mạch</p>
@@ -962,7 +996,8 @@
             <div class="" style="text-align: center; margin-top: 95px;">
                 <p class="font-fa " style="color: #f8f8f8; font-size: 23px; font-weight: 600;">HƠN 20 NĂM TẬN TÂM PHỤC
                     VỤ</p>
-                <p class="font-fa" style="color: #f8f8f8;font-size:16px ; margin:0 20px ;">Dụng cụ y khoa Tân Long chuyên cung cấp trang
+                <p class="font-fa" style="color: #f8f8f8;font-size:16px ; margin:0 20px ;">Dụng cụ y khoa Tân Long
+                    chuyên cung cấp trang
                     thiết bị y khoa, dược phẩm, thực phẩm chức năng, thiết bị y tế... <br> Sản phẩm có chất lượng và
                     nguồn gốc rõ ràng để khách hàng yên tâm sữ dụng.</p>
             </div>
@@ -1173,7 +1208,7 @@
             </div>
             <div class="new grid-custom  contain  ">
                 <div class="item-new">
-                    <img src="./img/10.png" alt="" class="img-new  " >
+                    <img src="./img/10.png" alt="" class="img-new  ">
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">TP.HCM: 1 – 2 tuần tới sẽ cung ứng đủ vaccine cho người dân</a>
                         <p class="font-fa day">Ngày 06/07/2023</p>
@@ -1183,8 +1218,7 @@
                     </div>
                 </div>
                 <div class="item-new">
-                    <img src="./img/7.png" alt=""  class="img-new  " 
-                  >
+                    <img src="./img/7.png" alt="" class="img-new  ">
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">Siêu lạ, siêu hot - Mặt nạ cho tâm trạng “nắng mưa” của
                             nàng</a>
@@ -1195,7 +1229,7 @@
                     </div>
                 </div>
                 <div class="item-new display_none display_block">
-                    <img src="./img/8.png" alt="" class="img-new  " >
+                    <img src="./img/8.png" alt="" class="img-new  ">
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">Cận cảnh OPPO F11 Pro Avengers Edition: “Chất như nước cất”</a>
                         <p class="font-fa day">Ngày 06/07/2023</p>
@@ -1205,7 +1239,7 @@
                     </div>
                 </div>
                 <div class="item-new display_none">
-                    <img src="./img/9.png" alt="" class="img-new  " >
+                    <img src="./img/9.png" alt="" class="img-new  ">
                     <div class="" style="margin: 10px; ">
                         <a href="" class="font-fa title">Tìm hiểu những tính năng vô cùng hay ho của ColorOS 6.0 trên
                             Realme 3</a>
@@ -1221,7 +1255,7 @@
         </div>
         <!-- đăng ký nhận tin -->
         <div class="register">
-            <div class="register_mobile contain flex-custom" style="justify-content: space-between;">
+            <div class="register_mobile contain flex-custom" style="justify-content: space-between; align-items: center;">
                 <div class="flex-custom">
                     <div class="flex-custom" style="align-items: center;">
                         <img src="./img/telegram-plane.png" alt=""
@@ -1343,11 +1377,11 @@
                 for (i = 0; i < slides.length; i++) {
                     slides[i].style.display = "none";
                 }
-                for (i = 0; i <  dots.length; i++) {
+                for (i = 0; i < dots.length; i++) {
                     dots[i].className = dots[i].className.replace(" active", "");
                 }
                 slides[n - 1].style.display = "flex";
-                  slides[n - 1].style.justifyContent = "center";
+                slides[n - 1].style.justifyContent = "center";
                 dots[n - 1].className += " active";
             }
         }

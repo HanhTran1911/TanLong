@@ -43,11 +43,7 @@
         height:56px;
         position: relative;
     }
-    .support{
-        top: 10px;
-        position: absolute;
-        right: 10px;
-    }
+  
     .form-search{
         border-right: 0;
         margin-bottom: 15px;
@@ -86,6 +82,7 @@
 
     .content_menu_reponse{
         margin-top:10px;
+        margin-left: 15px;
     }
         .menu_laptop{
             display:none;
@@ -117,7 +114,7 @@
     }
     /* sản phẩm bán chạy */
     .product-sale{
-        height:240px;
+        height:275px;
     }
     /* thiết bị bán chạy */
     .device{  

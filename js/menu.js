@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //sự kiện khi click vao iconclick
     iconClick.addEventListener('click', function () {
+        categoryInfoElement.style.display = 'block';
+        mainMenuElement.style.color='#888';
         menu.style.display = "block";
     });
     // sự kiện khi click vào icon close
